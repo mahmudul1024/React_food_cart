@@ -1,0 +1,65 @@
+.home_container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 20px;
+    gap: 10px;
+    position: relative;
+    
+}
+
+.left_home{
+    background-color: antiquewhite;
+    padding: 5px;
+}
+.main_div{
+    position: relative;
+}
+
+.right_home{
+    background-color: burlywood;
+    padding: 5px;
+    position:sticky;
+    top: 0;
+
+}
+
+.search_field{
+    padding: 10px 15px;
+
+}
+.btn_search{
+    background-color: gainsboro;
+    padding: 12px 15px;
+    border: none;
+    
+
+}
+
+.flexing{
+    display: flex;
+    justify-content:center;
+    width: 90%;
+    border: 1px solid #000;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.flexing:hover{
+    background-color: coral;
+}
+
+.space_list{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.delete_btn{
+    background-color: red;
+    color: white;
+    border-radius: 20%;
+    
+    
+}
